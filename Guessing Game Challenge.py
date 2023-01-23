@@ -18,7 +18,7 @@ while True:
          print("OUT OF BONDS!, PLEASE TRY AGAIN")
          continue
     if guesses==num:
-         print("CONGRATULATIONS,YOU GUESSED IT IN ONLY {len(guesses} ")
+         print(f "CONGRATULATIONS, YOU GUESSED IT IN ONLY {len(guesses)} GUESSES!!")
          Break
 
     guesses.append(guess)
