@@ -17,7 +17,7 @@ while True:
     if guess < 1 or guess > 100:
          print("OUT OF BONDS!, PLEASE TRY AGAIN")
          continue
-    if guesses==num:
+    if guess==num:
          print(f "CONGRATULATIONS, YOU GUESSED IT IN ONLY {len(guesses)} GUESSES!!")
          Break
 
